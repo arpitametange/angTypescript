@@ -1,4 +1,5 @@
 var mathMarks=parseInt(prompt("Enter the Math marks")!)
+console.log(typeof mathMarks);
 
 var getPhy=parseInt( prompt("Enter the physics marks")!)
 var  getChem=parseInt(prompt("Enter the chemistry marks")!)

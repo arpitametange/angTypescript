@@ -1,25 +1,20 @@
 // Object Types and Type Aliases
-let obje:{
-    s:number,
-    t:number,
-}={s:12,t:12}
-
 
 type Test = { x: number, y: number};
 
-let center : Test = {
+var center: Test = {
     x: 0,
     y: 0,
 };
 
-let unit : Test = {
+var unit : Test = {
     x: 1,
     y:1,
 }
 
 // any 
 
-let exampleAny : any;
+var exampleAny : any;
 
 exampleAny = 123; 
 
@@ -27,7 +22,7 @@ exampleAny = 123;
 
 // unkown 
 
-let exampleUnknown: unknown;
+var exampleUnknown: unknown;
 
 exampleUnknown = "codemind ";
 
