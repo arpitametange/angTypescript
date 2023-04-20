@@ -1,8 +1,7 @@
-var mathMarks=parseInt(prompt("Enter the Math marks")!)
-console.log(typeof mathMarks);
+var mathMarks=Number(prompt("Enter the Math marks"))
 
-var getPhy=parseInt( prompt("Enter the physics marks")!)
-var  getChem=parseInt(prompt("Enter the chemistry marks")!)
+var getPhy=Number( prompt("Enter the physics marks"))
+var  getChem=Number(prompt("Enter the chemistry marks"))
 
 console.log(`Marks of Math ${mathMarks}`);
 console.log(`Marks of Physics ${getPhy}`);
