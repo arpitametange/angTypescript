@@ -1,6 +1,4 @@
 // Take input from user 
-
-
 function marks(a: number, b: number, c: number) {
     var avg: number = (a+b+c) / 3;
 
