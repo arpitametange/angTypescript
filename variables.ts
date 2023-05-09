@@ -7,3 +7,4 @@ console.log(n2);
 var str:string="this is the string"
 console.log(str);
 
+

@@ -5,3 +5,8 @@ export function exportFun(id:number,name:string) {
    
  
 }
+
+export function export2(no:string){
+   console.log(no);
+   
+}

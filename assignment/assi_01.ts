@@ -1,5 +1,4 @@
 var mathMarks=Number(prompt("Enter the Math marks"))
-
 var getPhy=Number( prompt("Enter the physics marks"))
 var  getChem=Number(prompt("Enter the chemistry marks"))
 
