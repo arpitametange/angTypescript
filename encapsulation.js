@@ -15,4 +15,19 @@ var Employee = /** @class */ (function () {
 }());
 var man = new Employee();
 // 
-man.name;
+console.log(man.name);
+var Person = /** @class */ (function () {
+    function Person() {
+        this.name3 = 12;
+    }
+    Object.defineProperty(Person.prototype, "name2", {
+        get: function () {
+            return this.name3;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return Person;
+}());
+var oob = new Person();
+oob.name3;

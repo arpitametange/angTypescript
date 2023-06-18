@@ -13,4 +13,13 @@ class Employee {
 let man = new Employee();
 
 // 
-man.name;
+console.log( man.name);
+
+class Person{
+    private name3:number=12
+    public get name2(){
+          return this.name3
+   }
+   }
+   let oob=new Person()
+    oob.name3

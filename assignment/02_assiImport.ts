@@ -3,3 +3,6 @@ exportFun(99,"Arpita")
 
 import { export2 } from "./02_assiExport";
 export2("1222")
+
+import { funname } from "./02_assiExport";
+funname()
